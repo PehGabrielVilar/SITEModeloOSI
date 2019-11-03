@@ -1,0 +1,49 @@
+body {
+    margin: 0%;
+     
+}
+.menu {
+    background-color: #017fad;
+    margin: 0%;
+    padding: 0;
+}
+.menu li {
+    padding: 0%;
+    margin: 0%;
+    display: inline-block; 
+    list-style:none; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+        
+}
+.menu a   {
+    color: #017fad;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color:#fff;
+    color: white;
+    font-family: 'Times New Roman', Times, serif ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px
+}
+.menu a:logo{
+    background-image: url(iconmenu.png);
+}
+.container { 
+    width: 95%;
+    margin: auto;
+}
+.iconemenu {
+    height: 100%;
+    width: 25px;
+    background-image: url(iconemenu.png);
+    background-repeat: no-repeat;
+    background-position: 0;
+    background-size: contain;
+}
+.espacamento a {
+    margin-right: 38px;
