@@ -1,47 +1,90 @@
 body {
     margin: 0%;
-     
+    height: 100%;
+    background-image: url("technn-1140x627.jpg");
 }
+
 .menu {
     background-color: #017fad;
     margin: 0%;
     padding: 0;
 }
+
 .menu li {
     padding: 0%;
     margin: 0%;
-    display: inline-block; 
-    list-style:none; 
+    display: inline-block;
+    list-style: none;
     padding-top: 20px;
     padding-bottom: 20px;
-        
 }
-.menu a   {
-    color: #017fad;
+
+.menu a {
+    color: white;
     padding: 15px 15px 15px 15px;
     text-decoration: none;
 }
+
 .menu a:hover {
     padding-top: 20px;
     padding-bottom: 20px;
-    
 }
 
-.container { 
+.container {
     width: 95%;
     margin: auto;
 }
-.iconemenu {
-    background-image: url(iconemenu.png);
-    background-repeat: no-repeat;
-    background-position: 0;
-    background-size: contain;
+
+.espacamento a {
+    margin-right: 38px;
 }
-.iconemenuhome {
+
+.iconemenu {
     background-image: url(home.png);
     background-repeat: no-repeat;
     background-position: 0;
     background-size: contain;
 }
-.espacamento a {
-    margin-right: 38px;}
+
+.parallax {
+    margin: 0%;
+    background-image: url("technn-1140x627.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container2 {
+    width: 80%;
+    margin: auto;
+}
+
+.text {
+    background-color: transparent;
+    text-align: center;
+    padding: 40px 60px;
+    color: white;
+}
+
+.texto {
+    background-color: white;
+    padding: 50px 80px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    background-color: black;
+    opacity: 1;
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    text-align: justify;
+    text-indent: 4em
+}
